@@ -18,7 +18,7 @@ output "test_output" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "your-terraform-state-bucketcxeeeeeeeeeqt"  # Replace with a globally unique bucket name
+  bucket = "your-terraform-state-bucketcxeeeeeeeeeqtpie"  # Replace with a globally unique bucket name
   acl    = "private"
 
   versioning {
