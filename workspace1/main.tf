@@ -30,3 +30,7 @@ resource "aws_s3_bucket" "terraform_state" {
   }
 }
 
+provider "aws" {
+  region  = "ap-south-1"                   # Replace with your desired AWS region
+}
+
