@@ -15,3 +15,4 @@ terraform {
     region         = "ap-south-1"                      # Replace with your desired AWS region
     encrypt        = true                             # Encrypt the state file at rest  }
 }
+}
