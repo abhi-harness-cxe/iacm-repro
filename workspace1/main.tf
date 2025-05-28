@@ -1,7 +1,7 @@
 variable "example_var" {
   description = "An example variable"
   type        = string
-  default     = "test2"
+  default     = "test3"
 }
 
 output "test_output" {
